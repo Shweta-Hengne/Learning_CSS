@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            width: 150px;
+            height: 150px;
+            border-radius: 20px;
+            background-color: darkorange;
+            position: relative;
+            animation: movingbox;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            animation-delay: 2s;
+            /* animation-direction: reverse; */
+            /* animation-direction: alternate; */
+        }
+
+        @keyframes movingbox
+
+        /* name write from animation, and animation name is write by programmer */
+            {
+            0% {
+                background-color: blueviolet;
+                left: 0px;
+                top: 0px
+            }
+
+            25% {
+                background-color: brown;
+                left: 300px;
+                top: 0px
+            }
+
+            50% {
+                background-color: chocolate;
+                left: 300px;
+                top: 300px
+            }
+
+            75% {
+                background-color: cornflowerblue;
+                left: 0px;
+                top: 300px
+            }
+
+            100% {
+                background-color: blueviolet;
+                left: 0px;
+                top: 0px
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div></div>
+</body>
+
+</html>

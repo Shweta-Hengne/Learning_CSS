@@ -1,0 +1,41 @@
+/* nth Child */
+ul{
+    width: 200px;
+    padding: 10px;
+    list-style-type: none;
+    font-weight: 900;
+}
+li{
+    padding: 10px;
+    border: 2px solid gray;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+/* using class */
+/* .item1{           
+    background-color: blue;
+}
+.item2{
+    background-color: yellow;
+} */
+
+
+
+/* li:nth-child(odd){
+    background-color: skyblue;
+}
+li:nth-child(even){
+    background-color: lightcoral;
+} */
+
+li:first-child{
+    background-color: lightcoral;
+}
+li:last-child{
+    background-color: skyblue;
+}
+
+li:nth-child(5){
+    background-color: lightcoral;
+}
